@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/transport_option.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/transport_option.dart';
 
 class TransportGrid extends StatefulWidget {
   const TransportGrid({super.key});

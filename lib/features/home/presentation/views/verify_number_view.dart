@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/core/utils/app_router.dart';
-import 'package:hawaa_app/core/utils/custom_app_bar.dart';
-import 'package:hawaa_app/core/utils/custom_button.dart';
-import 'package:hawaa_app/core/utils/custom_text_field_number.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/headline.dart';
+import 'package:hawa_application/core/utils/app_router.dart';
+import 'package:hawa_application/features/home/presentation/views/widgets/headline.dart';
 
+
+import '../../../../core/utils/custom_app_bar.dart';
+import '../../../../core/utils/custom_button.dart';
+import '../../../../core/utils/custom_text_field_number.dart';
 import '../../../../shared/models/headline_model.dart';
 
 class VerifyNumberView extends StatelessWidget {

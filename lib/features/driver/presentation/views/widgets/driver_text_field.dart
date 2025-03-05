@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/core/utils/styles.dart';
+import '../../../../../core/utils/styles.dart';
 
 class DriverField extends StatefulWidget {
   final String label;

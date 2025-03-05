@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:hawaa_app/core/utils/styles.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/custom_image_button.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/custom_image_grid.dart';
+import 'package:hawa_application/core/utils/styles.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/custom_image_button.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/custom_image_grid.dart';
 
 class ImageGridSection extends StatelessWidget {
     final String text;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/shared/models/headline_model.dart';
 
 import '../../../../../core/utils/styles.dart';
+import '../../../../../shared/models/headline_model.dart';
 
 class Headline extends StatelessWidget {
   const Headline({super.key, required this.headlineModel});

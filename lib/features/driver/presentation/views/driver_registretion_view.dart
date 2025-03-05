@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/core/utils/app_router.dart';
-import 'package:hawaa_app/core/utils/custom_app_bar.dart';
-import 'package:hawaa_app/core/utils/custom_button.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/driver_text_field.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/headline.dart';
-import 'package:hawaa_app/shared/models/headline_model.dart';
+import 'package:hawa_application/core/utils/app_router.dart';
+import 'package:hawa_application/core/utils/custom_app_bar.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/driver_text_field.dart';
+import 'package:hawa_application/features/home/presentation/views/widgets/headline.dart';
+import 'package:hawa_application/shared/models/headline_model.dart';
+
+import '../../../../core/utils/custom_button.dart';
+
 
 class DriverRegistrationView extends StatelessWidget {
   const DriverRegistrationView({super.key});

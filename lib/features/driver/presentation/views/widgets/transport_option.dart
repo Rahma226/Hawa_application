@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/core/utils/styles.dart';
+import 'package:hawa_application/core/utils/styles.dart';
 
 class TransportOption extends StatelessWidget {
   final String imagePath;

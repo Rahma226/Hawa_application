@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/core/utils/styles.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/shared/models/splash_view_body_model.dart';
+
+import '../../../../../core/utils/styles.dart';
+import '../../../../../shared/models/splash_view_body_model.dart';
 
 class SplashViewBody extends StatefulWidget {
   final double progress;

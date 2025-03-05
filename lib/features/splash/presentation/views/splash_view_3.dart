@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/features/splash/presentation/views/widgets/splash_view_body.dart';
-import 'package:hawaa_app/shared/models/splash_view_body_model.dart';
+import 'package:hawa_application/features/splash/presentation/views/widgets/splash_view_body.dart';
+
+import '../../../../shared/models/splash_view_body_model.dart';
+
 
 class SplashView3 extends StatelessWidget {
   const SplashView3({super.key});

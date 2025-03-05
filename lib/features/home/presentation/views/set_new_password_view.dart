@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/core/utils/app_router.dart';
-import 'package:hawaa_app/core/utils/custom_app_bar.dart';
-import 'package:hawaa_app/core/utils/custom_button.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/password_body.dart';
+import 'package:hawa_application/features/home/presentation/views/widgets/password_body.dart';
 
+
+import '../../../../core/utils/app_router.dart';
+import '../../../../core/utils/custom_app_bar.dart';
+import '../../../../core/utils/custom_button.dart';
 import '../../../../shared/models/headline_model.dart';
 
 class SetNewPasswordView extends StatelessWidget {

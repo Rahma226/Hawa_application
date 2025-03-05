@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/core/utils/app_router.dart';
+import 'package:hawa_application/core/utils/app_router.dart';
 
 void main() {
   runApp(const HawaApp());

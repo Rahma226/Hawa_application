@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:hawaa_app/core/utils/custom_app_bar.dart';
-import 'package:hawaa_app/core/utils/custom_circle_avatar.dart';
-import 'package:hawaa_app/core/utils/custom_small_button.dart';
-import 'package:hawaa_app/core/utils/custom_text_field.dart';
 
+
+import '../../../../core/utils/custom_app_bar.dart';
+import '../../../../core/utils/custom_circle_avatar.dart';
+import '../../../../core/utils/custom_small_button.dart';
+import '../../../../core/utils/custom_text_field.dart';
 import '../../../../core/utils/custom_text_field_with_divider.dart';
 
 class CompleteYourProfileView extends StatelessWidget {

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/core/utils/app_router.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/locatin_card.dart';
+import 'package:hawa_application/core/utils/app_router.dart';
+import 'package:hawa_application/features/home/presentation/views/widgets/locatin_card.dart';
+
 
 class LocationPermissionView extends StatelessWidget {
   @override

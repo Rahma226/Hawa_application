@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/core/utils/styles.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/custom_image_button.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/custom_image_container.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/custom_image_button.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/custom_image_container.dart';
+
+
+import '../../../../../core/utils/styles.dart';
 
 class ImageSection extends StatelessWidget {
   final String text;

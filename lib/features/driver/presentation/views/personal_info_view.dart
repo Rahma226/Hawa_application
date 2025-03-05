@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:hawaa_app/core/utils/custom_app_bar.dart';
-import 'package:hawaa_app/core/utils/custom_button.dart';
-import 'package:hawaa_app/core/utils/custom_text_field.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/change_image_dialog.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/custom_image_button.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/custom_image_container.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/image_section.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/image_selection_modal.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/headline.dart';
-import 'package:hawaa_app/shared/models/headline_model.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/change_image_dialog.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/custom_image_button.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/custom_image_container.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/image_section.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/image_selection_modal.dart';
+
+import '../../../../core/utils/custom_app_bar.dart';
+import '../../../../core/utils/custom_button.dart';
+import '../../../../core/utils/custom_text_field.dart';
+import '../../../../shared/models/headline_model.dart';
+import '../../../home/presentation/views/widgets/headline.dart';
 
 class PersonalInfoView extends StatelessWidget {
   const PersonalInfoView({super.key});
@@ -31,7 +32,6 @@ class PersonalInfoView extends StatelessWidget {
             Headline(headlineModel: headlineModel),
             const SizedBox(height: 66),
 
-            // Profile Picture
             GestureDetector(
               onTap: () => showChangeImageDialog(context),
               child: const CustomImageContainer(
@@ -39,12 +39,10 @@ class PersonalInfoView extends StatelessWidget {
             ),
             const SizedBox(height: 25),
 
-            // Select Image Button
             CustomImageButton(
                 onPressed: () => showImageSelectionModal(context)),
             const SizedBox(height: 48),
 
-            // Form Fields
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: CustomTextField(hintText: 'ادخل اسمك الأول'),

@@ -1,8 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/core/utils/custom_text_field.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/headline.dart';
-import 'package:hawaa_app/shared/models/headline_model.dart';
+import 'package:hawa_application/core/utils/custom_text_field.dart';
+import 'package:hawa_application/features/home/presentation/views/widgets/headline.dart';
+
+import '../../../../../shared/models/headline_model.dart';
+
 
 class PasswordBody extends StatelessWidget {
   const PasswordBody({

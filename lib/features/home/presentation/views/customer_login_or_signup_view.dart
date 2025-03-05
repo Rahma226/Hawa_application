@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/core/utils/app_router.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/driver_or_customer_view_body.dart';
-import 'package:hawaa_app/shared/models/splash_view_body_model.dart';
+import 'package:hawa_application/features/home/presentation/views/widgets/driver_or_customer_view_body.dart';
 
+
+import '../../../../core/utils/app_router.dart';
 import '../../../../core/utils/custom_button.dart';
+import '../../../../shared/models/splash_view_body_model.dart';
 
 class CustomerLoginOrSignupView extends StatelessWidget {
   const CustomerLoginOrSignupView({super.key});

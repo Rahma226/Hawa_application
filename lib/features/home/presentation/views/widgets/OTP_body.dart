@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/headline.dart';
-import 'package:hawaa_app/shared/models/headline_model.dart';
+import 'package:hawa_application/features/home/presentation/views/widgets/headline.dart';
+
 import '../../../../../core/utils/otp_text_field.dart';
+import '../../../../../shared/models/headline_model.dart';
 
 class OTPbody extends StatelessWidget {
   const OTPbody({

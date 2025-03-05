@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hawaa_app/core/utils/custom_app_bar.dart';
-import 'package:hawaa_app/core/utils/custom_button.dart';
-import 'package:hawaa_app/core/utils/custom_text_field.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/headline.dart';
-import 'package:hawaa_app/shared/models/headline_model.dart';
+
+import '../../../../core/utils/custom_app_bar.dart';
+import '../../../../core/utils/custom_button.dart';
+import '../../../../core/utils/custom_text_field.dart';
+import '../../../../shared/models/headline_model.dart';
+import '../../../home/presentation/views/widgets/headline.dart';
+
 
 class ResidentialAddressInfoView extends StatelessWidget {
   const ResidentialAddressInfoView({super.key});

@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/core/utils/app_router.dart';
-import 'package:hawaa_app/core/utils/custom_app_bar.dart';
-import 'package:hawaa_app/core/utils/custom_button.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/transport_grid.dart';
-import 'package:hawaa_app/features/home/presentation/views/widgets/headline.dart';
-import 'package:hawaa_app/shared/models/headline_model.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/transport_grid.dart';
+
+import '../../../../core/utils/app_router.dart';
+import '../../../../core/utils/custom_app_bar.dart';
+import '../../../../core/utils/custom_button.dart';
+import '../../../../shared/models/headline_model.dart';
+import '../../../home/presentation/views/widgets/headline.dart';
+
 
 class SelectTransportForDriverView extends StatelessWidget {
   const SelectTransportForDriverView({super.key});

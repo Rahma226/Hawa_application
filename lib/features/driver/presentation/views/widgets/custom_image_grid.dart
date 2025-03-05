@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:hawaa_app/features/driver/presentation/views/widgets/custom_image_container.dart';
+import 'package:hawa_application/features/driver/presentation/views/widgets/custom_image_container.dart';
 
 class CustomImageGrid extends StatelessWidget {
   const CustomImageGrid({super.key});

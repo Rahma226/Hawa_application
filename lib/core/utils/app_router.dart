@@ -1,25 +1,26 @@
 import 'package:go_router/go_router.dart';
-import 'package:hawaa_app/features/driver/presentation/views/car_license_view.dart';
-import 'package:hawaa_app/features/driver/presentation/views/certificate_view.dart';
-import 'package:hawaa_app/features/driver/presentation/views/driver_registretion_view.dart';
-import 'package:hawaa_app/features/driver/presentation/views/driving_license_info.dart';
-import 'package:hawaa_app/features/driver/presentation/views/personal_info_view.dart';
-import 'package:hawaa_app/features/driver/presentation/views/residential_address.dart';
-import 'package:hawaa_app/features/driver/presentation/views/select_transport_for_driver_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/OTP_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/complete_your_profile_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/create_password_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/customer_login_or_signup_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/driver_or_customer_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/forget_password_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/location_permission_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/login_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/set_new_password_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/sign_up_view.dart';
-import 'package:hawaa_app/features/home/presentation/views/verify_number_view.dart';
-import 'package:hawaa_app/features/splash/presentation/views/splash_view_1.dart';
-import 'package:hawaa_app/features/splash/presentation/views/splash_view_2.dart';
-import 'package:hawaa_app/features/splash/presentation/views/splash_view_3.dart';
+import 'package:hawa_application/features/driver/presentation/views/car_license_view.dart';
+import 'package:hawa_application/features/driver/presentation/views/certificate_view.dart';
+import 'package:hawa_application/features/driver/presentation/views/driver_registretion_view.dart';
+import 'package:hawa_application/features/driver/presentation/views/driving_license_info.dart';
+import 'package:hawa_application/features/driver/presentation/views/personal_info_view.dart';
+import 'package:hawa_application/features/driver/presentation/views/residential_address.dart';
+import 'package:hawa_application/features/driver/presentation/views/select_transport_for_driver_view.dart';
+import 'package:hawa_application/features/home/presentation/views/OTP_view.dart';
+import 'package:hawa_application/features/home/presentation/views/complete_your_profile_view.dart';
+import 'package:hawa_application/features/home/presentation/views/create_password_view.dart';
+import 'package:hawa_application/features/home/presentation/views/customer_login_or_signup_view.dart';
+import 'package:hawa_application/features/home/presentation/views/driver_or_customer_view.dart';
+import 'package:hawa_application/features/home/presentation/views/forget_password_view.dart';
+import 'package:hawa_application/features/home/presentation/views/location_permission_view.dart';
+import 'package:hawa_application/features/home/presentation/views/login_view.dart';
+import 'package:hawa_application/features/home/presentation/views/set_new_password_view.dart';
+import 'package:hawa_application/features/home/presentation/views/sign_up_view.dart';
+import 'package:hawa_application/features/home/presentation/views/verify_number_view.dart';
+import 'package:hawa_application/features/splash/presentation/views/splash_view_1.dart';
+import 'package:hawa_application/features/splash/presentation/views/splash_view_2.dart';
+import 'package:hawa_application/features/splash/presentation/views/splash_view_3.dart';
+
 
 abstract class AppRouter {
   static const kSecondSplash = '/secondSplashView';
